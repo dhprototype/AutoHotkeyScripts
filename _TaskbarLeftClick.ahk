@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;window is restored instead of seeing the thumbnail previews
 ;*****************************************************************
 
-	~LButton::
+  ~LButton::
     MouseGetPos, , , , control, 1
     if(control=="MSTaskListWClass1")
     {
